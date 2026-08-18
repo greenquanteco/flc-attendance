@@ -617,7 +617,7 @@ plot(dc$absent, jitter(dc$ff, amount=0.02), #type="n",
      ylab="Probability of D or F (%)",
      xlim=c(0, 100), ylim=c(0, 1),
      yaxt="n")
-title(xlab="Participation or attendance (%)", line=2.4)
+title(xlab="Absences (% of course meetings)", line=2.4)
 flag1 <- which(prx$sub == "biol")
 flag2 <- which(prx$sub == "chem")
 flag3 <- which(prx$sub == "math")
